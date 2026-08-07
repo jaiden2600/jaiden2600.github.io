@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+<article class="post">
+  <h1>{{ page.title }}</h1>
+  {% if page.subtitle %}<p class="entry-subtitle">{{ page.subtitle }}</p>{% endif %}
+  <p class="entry-meta">
+    <i><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%b %-d, %Y" }}</time></i>
+  </p>
+
+  {{ content }}
+</article>
+
+<p class="entry-back"><a href="{{ '/blog' | relative_url }}">← back to all writeups</a></p>

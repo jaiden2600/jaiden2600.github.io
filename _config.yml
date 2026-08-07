@@ -1,0 +1,54 @@
+title: jaiden2600
+email: jaiden2600@proton.me
+description: >-
+  Writeups and notes from security research
+url: "https://jaiden2600.github.io"
+baseurl: ""
+
+theme: jekyll-bear-theme
+markdown: kramdown
+permalink: /blog/:slug
+timezone: America/New_York
+future: false
+
+sass:
+  style: compressed
+  sourcemap: never
+
+plugins:
+  - jekyll-redirect-from
+
+include:
+  - _pages
+
+exclude:
+  - README.md
+
+collections_dir: content
+
+collections:
+  journal:
+    output: true
+    permalink: /journal/:name
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+  - scope:
+      path: ""
+      type: journal
+    values:
+      layout: journal
+
+nav:
+  - title: home
+    url: /
+  - title: blog
+    url: /blog
+  - title: journal
+    url: /journal
+  - title: projects
+    url: /projects

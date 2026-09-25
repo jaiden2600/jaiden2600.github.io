@@ -5,7 +5,7 @@ permalink: /
 ---
 
 <img class="profile-photo" src="{{ '/assets/images/profile.png' | relative_url }}" alt="jaiden2600">
-I'm a 17-year-old security researcher exploring embedded devices, software, and really anything low-level. I got into this out of curiosity about CVEs, I'd frequently use them and started wondering how they were discovered, exploited, and weaponized in the first place. Right now I'm learning exploit development and spending time on practice CTFs.
+I'm a 17 year old security researcher interested in offensive security but focused on low level systems. I enjoy figuring out how things work, whether that's why a program crashes or turning a bug into something exploitable. I'm currently learning exploit development through practice labs and real world software. Every target teaches me something new, and I look forward to learning more.
 
 **Find me:** [github](https://github.com/jaiden2600) · [email](mailto:jaiden2600@proton.me)
 

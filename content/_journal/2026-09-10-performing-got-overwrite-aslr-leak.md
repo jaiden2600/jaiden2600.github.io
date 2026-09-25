@@ -9,7 +9,6 @@ I created and solved this challenge because I have only mainly read about GOT/PL
 
 #### Mitigations
 ```
-File:       /home/bird/Downloads/got-overwrite/feedback
 Arch:       amd64
 RELRO:      Partial RELRO
 Stack:      No canary found

@@ -13,17 +13,17 @@ I'm a 17 year old security researcher interested in offensive security but focus
 
 **Focus:** Vulnerability Research · Exploit Development · Reverse Engineering
 
-**Skills:** Web Security · Hardware & Firmware · Red Teaming
+**Skills:** Web Exploitation · Hardware & Firmware · Red Teaming
 
 **Experience:**
-- Independent Security Research · HackerOne · 2025 - Present
-- Capture the Flag Challenges · HackTheBox & TryHackMe · 2023 - Present
+- Independent Security Research · HackerOne
+- Capture the Flag · [HackTheBox](https://profile.hackthebox.com/profile/019d21ef-f4da-738b-84fb-4c8c42e67fd9) (Skilled) / [TryHackMe](https://tryhackme.com/p/jaiden2600) (Top 7%) / CTFtime
 
 ---
 
 My published work lives in three places:
 
-- [**blog**]({{ '/blog' | relative_url }}) - Long writeups: a target, what I found, how I got there, and explaining my thought process
+- [**blog**]({{ '/blog' | relative_url }}) - Detailed writeups, technical articles, etc.
 - [**journal**]({{ '/journal' | relative_url }}) - Short notes that contain quick findings, CTF challenges, and things worth documenting
 - [**projects**]({{ '/projects' | relative_url }}) - Tools and exploits I've built and repositories worth checking out
 
